@@ -1,0 +1,7 @@
+L’esempio per questo pattern include due classi: Employee e Customer con interfacce diverse.
+La classe Employee il nome e il cognome dell’impiegato.
+La classe Customer (cliente) deriva dalla classe base astratta Contact che il nome completo del contatto,come unica proprietà.
+Non è possibile assegnare un’istanza di Employee a un riferimento di tipo Contact.Occorre adattare l’interfaccia di Employee a quella di Contact.
+Si crea la classe EmployeeAdapter che deriva da Contact e presenta un campo privato di tipo Employee.
+L’istanza della classe Employee da adattare viene passata all’adapter come parametro sul costruttore.
+La proprietà Nome di EmployeeAdapter esegue la concatenazione del nome e del cognome dell’impiegato utilizzando le proprietà dell’oggetto interno.
