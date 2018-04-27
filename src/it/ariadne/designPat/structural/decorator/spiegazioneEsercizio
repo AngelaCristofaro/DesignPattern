@@ -1,0 +1,4 @@
+L'esempio permette di implementare diversi tipi di auto: 
+viene creata un'interfaccia Car per definire il metodo di assemblaggio
+--> una macchina di base --> estensione a Sports car e Luxury Car. 
+L'obiettivo un'automobile in fase di runtime che abbia le caratteristiche di auto sportive e/o di lusso.
