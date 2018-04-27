@@ -1,0 +1,4 @@
+La classe statica SystemManager presenta un metodo DoSomething() che interagisce con le parti interne del sottosistema.
+Internamente al metodo vengono infatti richiamati in sequenza altri tre metodi di altrettante classi appartenenti al sottosistema.
+Il client non conosce l’esatto ordine con cui le chiamate dei metodi vengono effettuate, né quali classi del sottosistema sono effettivamente coinvolte.
+Di fatto la classe SystemManager disaccoppia il client dalle classi interne, eliminando completamente eventuali dipendenze.
