@@ -1,0 +1,7 @@
+L’esempio proposto utilizza algoritmi per ordinare un insieme di numeri interi. 
+L’ordinamento può essere fatto in più modi,per cui esistono diverse versioni parallele dello stesso algoritmo.
+La classe astratta SortAlgorithm rappresenta il tipo base da cui ogni implementazione dell’algoritmo deriva.
+Verranno implementati due algoritmi diversi con le classi BubbleSort e MergeSort.
+La classe Context carica l’istanza di un algoritmo passata tramite il costruttore.
+Il metodo SortArray(int[]) di Context internamente utilizza il metodo Sort(int) di SortAlgorithm, implementato in modo particolare da ciascuna delle classi derivate.
+In questo modo il client (classe Program) utilizza unicamente Context per eseguire gli ordinamenti e qualsiasi modifica degli algoritmi e delle classi relative non impatta su di esso.
