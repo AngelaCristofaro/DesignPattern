@@ -1,0 +1,6 @@
+Si consideri un documento suddiviso in capitoli e paragrafi rappresentati da altrettanti oggetti il cui tipo base è la classe astratta DocumentElement. 
+Il documento risulta essere un’aggregazione più o meno complessa dei suoi elementi costituenti.
+Nell’esempio ciascun capitolo (classe DocumentChapter) è un elemento composito che contiene uno o più paragrafi.
+L’elemento terminale della struttura del documento è rappresentato dal paragrafo (classe DocumentParagraph).
+A parità di interfaccia i diversi oggetti di tipo DocumentElement mostrano comportamenti peculiari a seconda dei casi: 
+-->l’implementazione interna dell’elemento terminale (il paragrafo) è differente da quella dell’elemento composito (il capitolo).
