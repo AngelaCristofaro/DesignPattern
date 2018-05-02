@@ -1,0 +1,7 @@
+L’esempio proposto include un’interfaccia Shape che dichiara un metodo Print, presente in tutte le istanze che implementano Shape.
+In particolare queste istanze sono rappresentate dagli oggetti di tipo MyCircle e MyRectangle,
+che implementano l’interfaccia Shape in modo indiretto tramite le classi base Circle e Rectangle rispettivamente.
+L’oggetto MyShapeFactory implementa l’interfaccia IShapeFactory e nei metodi CreateCircle e CreateRectangle crea tramite il costruttore di default le istanze di tipo MyCircle e MyRectangle.
+Nel client (Program) non viene fatto alcun riferimento alle classi MyCircle e MyRectangle.
+Dal momento che il client non conosce in modo diretto i tipi effettivamente creati dal factory,
+qualsiasi dipendenza di Program dai tipi concreti effettivamente utilizzati al suo interno viene eliminata.
