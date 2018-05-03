@@ -1,6 +1,6 @@
-package it.ariadne.designPat.comportamentali.abstractFactory;
+package it.ariadne.designPat.creational.abstractFactory;
 
-import it.ariadne.designPat.comportamentali.abstractFactory.my.MyShapeFactory;
+import it.ariadne.designPat.creational.abstractFactory.my.MyShapeFactory;
 /**
  * Classe Main che richiama i metodi che creano le forme,che a loro volta contengono un richiamo alle classi Cerchio/Rettangolo. 
  * @author cristofaro

@@ -1,4 +1,4 @@
-package it.ariadne.designPat.comportamentali.builder;
+package it.ariadne.designPat.creational.builder;
 
 import java.util.logging.Logger;
 /**

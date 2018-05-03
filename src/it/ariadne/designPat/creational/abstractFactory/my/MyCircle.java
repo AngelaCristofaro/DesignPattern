@@ -1,6 +1,6 @@
-package it.ariadne.designPat.comportamentali.abstractFactory.my;
+package it.ariadne.designPat.creational.abstractFactory.my;
 
-import it.ariadne.designPat.comportamentali.abstractFactory.Circle;
+import it.ariadne.designPat.creational.abstractFactory.Circle;
 /**
  * Classe che estende Cerchio e sovrascrive il metodo contenuto in Shape
  * @author cristofaro

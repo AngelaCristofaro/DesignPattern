@@ -1,4 +1,4 @@
-package it.ariadne.designPat.comportamentali.abstractFactory;
+package it.ariadne.designPat.creational.abstractFactory;
 /**
  * Classe rettangolo che implementa il metodo Print di Shape
  * @author cristofaro

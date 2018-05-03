@@ -1,6 +1,6 @@
-package it.ariadne.designPat.comportamentali.abstractFactory.my;
+package it.ariadne.designPat.creational.abstractFactory.my;
 
-import it.ariadne.designPat.comportamentali.abstractFactory.Rectangle;
+import it.ariadne.designPat.creational.abstractFactory.Rectangle;
 /**
  * Classe che estende Rettangolo e sovrascrive il metodo contenuto in Shape
  * @author cristofaro

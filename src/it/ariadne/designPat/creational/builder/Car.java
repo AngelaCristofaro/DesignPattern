@@ -1,4 +1,4 @@
-package it.ariadne.designPat.comportamentali.builder;
+package it.ariadne.designPat.creational.builder;
 /**
  * Classe Car che rappresenta l'oggetto
  * @author cristofaro

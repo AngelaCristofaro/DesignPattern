@@ -1,0 +1,3 @@
+ShapeCreator include il metodo CreateShape(ShapeType), direttamente implementato e accetta un parametro che consente di selezionare il tipo dell’istanza da creare.
+In base al valore del parametro, il metodo ritorna un’istanza di Circle o di Rectangle,a seconda dei casi.
+Il metodo factory ritorna un oggetto di tipo Shape, classe astratta base per Circle e Rectangle.
