@@ -1,0 +1,7 @@
+Questo esempio prevede la costruzione di un oggetto di tipo Car che comprende quattro proprietà,
+ovvero un array composto da 1 elementi di tipo Wheel (ruota), un Engine (motore) e un Chassis (telaio).
+Ciascuna di queste parti implementa in modo particolare il metodo toString e definisce un costruttore.
+L’oggetto che è incaricato di costruire l’assemblato è la classe CarBuilder che,
+tramite il metodo statico CreateCar,
+accetta i parametri di costruzione validi per le diverse parti e chiama i costruttori per la generazione delle istanze.
+Il metodo ToString della classe Car richiama internamente i metodi ToString delle parti costituenti per ottenere una rappresentazione completa dell’oggetto.

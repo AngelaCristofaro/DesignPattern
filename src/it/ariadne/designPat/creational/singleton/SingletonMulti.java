@@ -9,14 +9,14 @@ package it.ariadne.designPat.creational.singleton;
 
 public class SingletonMulti {
 	
-	// inizializzazione instanza
+	/** inizializzazione instanza */
 	private static SingletonMulti instance = null;
 	
-	//contruttore vuoto
+	/**contruttore vuoto*/
 	public SingletonMulti() {
 	}
 	
-	//metodo privato e statico sincronizzato per creare l'instanza
+	/**metodo privato e statico sincronizzato per creare l'instanza*/
 	private synchronized static SingletonMulti createInstance() {
 		if(instance == null) {
 			instance = new SingletonMulti();
