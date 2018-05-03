@@ -1,0 +1,4 @@
+L’interfaccia IService fornisce il contratto che deve essere rispettato sia dall’oggetto vero e proprio di tipo MyService, sia dal suo surrogato ServiceProxy.
+Tramite la classe factory ServiceFactory, il client attiva un’istanza della classe proxy che assegna a un riferimento di tipo IService.
+Il client non è consapevole di stare usando un surrogato, semplicemente richiama i membri definiti dal contratto, indipendentemente dal tipo concreto istanziato.
+La classe proxy permette di eseguire più codice rispetto all’oggetto originario: internamente al metodo HandleRequest() vengono infatti eseguite istruzioni prima e dopo la chiamata del metodo di destinazione.
