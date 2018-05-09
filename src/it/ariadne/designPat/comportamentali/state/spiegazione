@@ -1,0 +1,4 @@
+Il primo esempio propone la selezione del colore di una Palette,
+infatti usando uno strumento di painting possiamo selezionare il colore da utilizzare per disegnare.
+Il colore è uno stato della Palette ed indica il colore attualmente selezionato per il disegno.
+La Palette ha una proprietà di stato relativa al colore e questo comporta avere una referenza con un oggetto Color e quindi assume un valore diverso in base al colore.
