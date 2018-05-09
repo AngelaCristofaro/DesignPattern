@@ -1,0 +1,2 @@
+In questo esempio si vuole creare una classe astratta Shape e delle classi concrete che la estendono.
+La classe ShapeCache gestisce la memoria degli oggetti in una lista di hash e ritorna i cloni degli oggetti quando richiesto.
