@@ -1,0 +1,3 @@
+L'esercizio affronta il caso in cui due osservatori sono interessati al cambio di stato di un soggetto osservato.
+Successivamente uno di essi cancella la sottoscrizione e non riceve più notifiche.
+In questo caso dobbiamo creare il Subject e l’Observer e le classi concrete ConcreteSubject e ConcreteObserver.
