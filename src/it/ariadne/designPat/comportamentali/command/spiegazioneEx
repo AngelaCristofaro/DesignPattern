@@ -1,0 +1,7 @@
+L’esempio si riferisce all’esecuzione di due sequenze di comandi da parte delle classi Reader e Writer.
+L’esecuzione di ciascuna azione consiste nella scrittura sulla console di una stringa contenente il nome di ciascun comando appartenente alla sequenza.
+L’oggetto di destinazione pertanto è System.Console: 
+Reader e Writer portano a compimento le operazioni desiderate sfruttando il suo metodo WriteLine(string).
+I singoli comandi sono classi diverse che implementano in modo particolare il metodo Execute(),definito nell’interfaccia ICommand.
+Si noti come il client (classe Program) sia completamente all’oscuro sia di come ciascun comando viene eseguito,
+sia di quale sequenza effettiva di azioni viene intrapresa di volta in volta.
